@@ -1,0 +1,24 @@
+source /home/james/gismo/bin/activate
+
+Gismo's Components and GPIO Assignments
+
+Component                   Wire	    Color	                Connection
+Pi Camera Rev 1.3	        -	-	    (Connects to CSI port)
+SSD1306 Display	            SDA	        Yellow	                PCA9685 SDA
+	                        SCL	        Blue	                PCA9685 SCL
+PCA9685	                    SDA	        Yellow	                Pi GPIO 2
+	                        SCL	        Blue	                Pi GPIO 3
+KY-006 Passive Buzzer	    Signal	    White	                Pi GPIO 18
+KY-033 Edge Sensor (Left)	Signal	    Green	                Pi GPIO 12
+KY-033 Edge Sensor (Right)	Signal	    Green	                Pi GPIO 13
+KY-032 IR Distance Sensor	Signal	    Green	                Pi GPIO 26
+KY-020 Tilt Sensor	        Signal	    White	                Pi GPIO 20
+KY-034 7-Color LED	        Signal	    Green	                Pi GPIO 9
+TTP223B Touch Sensor	    Signal	    Green	                Pi GPIO 17
+KY-004 Button	            Signal	    Green	                Pi GPIO 27
+KY-016 RGB LED (Red)	    Red	        Red	                    PCA9685 Channel 7
+KY-016 RGB LED (Green)	    Green	    Green	                PCA9685 Channel 8
+KY-016 RGB LED (Blue)	    Blue	    Blue	                PCA9685 Channel 9
+CHQ1838 IR Receiver	        Signal	    Green	                Pi GPIO 16
+Grove Ultrasonic Sensor	    Signal	    Green	                Pi GPIO 25
+TS-YM-115 Sound Sensor	    Signal	    White	                GPIO 21

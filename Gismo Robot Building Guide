@@ -1,0 +1,76 @@
+Gismo Robot Building Guide
+
+Introduction
+
+This guide will walk you through the process of building Gismo, an interactive robot powered by a Raspberry Pi Zero 2 W. Gismo is equipped with a variety of sensors, motors, and interactive components, allowing it to navigate its environment, avoid obstacles, respond to touch and sound, and even express emotions through its OLED display.
+
+Before You Begin
+
+    Gather all the necessary components (see the list below).
+    Make sure you have a Raspberry Pi Zero 2 W with the latest Raspberry Pi OS installed.
+    Set up a virtual environment (recommended) to manage the Python libraries.
+    Install the required libraries (see the requirements.txt file).
+
+Components
+
+    Raspberry Pi Zero 2 W
+    PCA9685 16-Channel PWM Driver
+    SSD1306 128x64 OLED Display
+    KY-006 Passive Buzzer
+    KY-033 Edge Detection Module (x2)
+    KY-032 Infrared Distance Sensor
+    KY-020 Tilt Sensor
+    KY-034 7-Color LED Module
+    TTP223B Capacitive Touch Sensor
+    KY-004 Button Module
+    KY-016 RGB LED Module
+    CHQ1838 Infrared Receiver Module
+    Grove Ultrasonic Distance Sensor
+    TS-YM-115 Sound Sensor
+    Pi Camera Rev 1.3 (optional)
+    Jumper wires, breadboard (for prototyping)
+    Chassis or frame (for the final build)
+    Battery and charger (if using a battery-powered setup)
+
+Wiring
+
+    Connect the components according to the wiring diagram and color scheme provided in the gismo_info.txt file.
+    Pay close attention to the connections to the PCA9685 and the Raspberry Pi's GPIO pins.
+    Double-check all connections for accuracy and secure them properly.
+
+Code
+
+    Download the Gismo code files (e.g., gismo_v1.12.py) from the GitHub repository.
+    Review the code and understand its different sections and functions.
+    Customize the code if needed (e.g., adjust parameters, add new behaviors).
+    Run the code on your Raspberry Pi and test the robot's functionality.
+
+Calibration and Testing
+
+    Calibrate the servos using the servo_calibration.py code.
+    Test each component individually using the provided test code files (e.g., buzzer_test.py, edge_sensor_test.py).
+    Test the integrated behavior of the robot using the main gismo.py code.
+    Fine-tune the parameters and behavior as needed.
+
+Building the Final Robot
+
+    Design and construct the chassis or frame for your robot.
+    Mount the components securely to the chassis.
+    Route the wires neatly and securely.
+    Connect the battery or power source.
+    Test the robot's functionality in its final form.
+
+Additional Resources
+
+    Gismo's GitHub repository: [link to your repo]
+    Online documentation and tutorials: [link to your documentation]
+    Community forum or support: [link to your forum or contact information]
+
+Tips
+
+    Start with a breadboard prototype to test the wiring and code before building the final robot.
+    Label your wires and connections clearly.
+    Take pictures or create diagrams of your wiring for future reference.
+    Be patient and persistent. Building a robot can be challenging, but it's also a rewarding learning experience.
+
+Enjoy the process of building and exploring with your Gismo robot!
